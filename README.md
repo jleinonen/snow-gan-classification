@@ -20,10 +20,10 @@ A GPU is highly recommended for training, but the experiments with pre-trained m
 
 ### Data
 
-Download the training datasets here (they are too big to include in the repository):
-Save the `.nc` files in the `data` directory.
+Download the training datasets [here](https://github.com/jleinonen/snow-gan-classification/releases/download/datasets/masc_combined_datasets.zip) (they are too big to include in the repository). 
+Save the `.nc` and `.npy` files in the `data` directory.
 
-If you want to use the pre-trained models, you can download them here:
+If you want to use the pre-trained models, you can download them [here](https://github.com/jleinonen/snow-gan-classification/releases/download/models/masc_infogan_combined.zip).
 Save the contents of the zip file in the `models` directory.
 
 ### Running the code
