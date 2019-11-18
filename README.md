@@ -38,7 +38,7 @@ You can evaluate the model and generate the plots shown in the paper using the d
 ```bash
 python replication.py experiments --model_name=../models/masc_infogan_combined
 ```
-where `model_name` is the name of the model you want to load (use the default for the pre-trained model). For the pre-trained model, this should replicate the results exactly. If you trained the GAN yourself, you probably will get slightly different results.
+where `model_name` is the name of the model you want to load (use the default for the pre-trained model). For the pre-trained model, this should replicate the results exactly. If you trained the GAN yourself, you probably will get slightly different results. The plots will be saved in the `figures` directory.
 
 In practice, you may want to run the experiments one by one by copypasting the code from `replication.experiments` to a terminal.
 
